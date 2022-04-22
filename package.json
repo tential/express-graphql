@@ -4,8 +4,8 @@
   "description": "Production ready GraphQL HTTP middleware.",
   "license": "MIT",
   "private": true,
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./npmDist/index.js",
+  "types": "./npmDist/index.d.ts",
   "typesVersions": {
     "<3.8": {
       "*": [
