@@ -94,7 +94,7 @@ async function readBody(
       ? contentEncoding.toLowerCase()
       : 'identity';
   // const maxBuffer = 100 * 1024; // 100kb
-  const maxBuffer = 1000 * 1024; // 1mb
+  const maxBuffer = 3000 * 1024; // 3mb
   const stream = decompressed(req, encoding);
 
   // Read body from stream.
